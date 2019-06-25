@@ -1,0 +1,196 @@
+@media(max-width:1000px){
+  .slides{
+    width:50%;
+  }
+}
+
+@media(max-width:670px){
+  .slides{
+    width:100%;
+  }
+}
+
+body{
+  margin:0;
+  font-size:14px;
+}
+
+.wrapper{
+  max-width: 1170px;
+  margin:0 auto;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+
+li{
+  list-style:none;
+}
+
+h3{
+  letter-spacing: 0.1em;
+}
+
+header{
+  height:50px;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  line-height: 50px;
+  z-index: 10;
+
+}
+
+.header-logo{
+  cursor: pointer;
+  float:left;
+  font-size:22px;
+  font-weight: 700;
+
+}
+
+.header-menu-right{
+  float: right;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.header-menu-right li{
+  float:left;
+}
+
+.header-menu-right a{
+  padding:14px;
+}
+
+/*ここからトップ*/
+.top{
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/wp-recipebook/wp-content/uploads/2017/07/AdobeStock_109489577-1024x680.jpeg");
+
+  background-color: rgba(0,0,0,0.3);
+
+  height: 300px;
+
+  background-size:100% 100%;
+
+  text-align: center;
+
+  color:white;
+
+  padding-top: 50px;
+
+  margin-top: 50px;
+
+}
+/*ここまでがトップ*/
+
+.container{
+  display:flex;
+  width:1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main{
+  background: white;
+  height: 2050px;
+  width: 100%;
+}
+
+.section-title h3{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+
+.prev-btn {
+  cursor: pointer;
+  float: left;
+}
+
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+.index-btn-wrapper{
+  margin-top:20px;
+  font-size:16pz;
+  text-align: center;
+}
+
+.index-btn{
+  display: inline-block;
+  color: white;
+  background-color: #00bfff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.index-btn:hover{
+  background-color: #4169e1;
+}
+
+.slides{
+  text-align: center;
+  padding-top: 0;
+}
+
+.slide{
+  display: none;
+}
+
+.active{
+  display:block;
+}
+
+.slide-normal img{
+  width:400px;
+  height:200px;
+}
+
+.slide-tall img{
+  width:200px;
+  height: 400p;
+}
+
+.introduction-essay{
+  display:inline-block;
+  vertical-align: top;
+  width: 44%;
+  margin-left: 65px;
+  margin-bottom: 60px;
+}
+
+.introduction-essay h3{
+  font-weight: 1000;
+  color:orange;
+}
+
+.whatICanDo-section{
+  padding:50px 200px;
+
+}
+
+.whatICanDo-list h3{
+  color:#0000cd;
+  margin-bottom:15px;
+  padding-top:40px;
+}
+
+.goal-section{
+  padding:50px 0;
+}
+
+.goal-list h3{
+  color:red;
+}
+
+.self-introduction-list h3{
+  color:green;
+}
